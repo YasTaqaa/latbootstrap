@@ -3,12 +3,13 @@
     src: url("/font/porsche/911porschav3bold.ttf") format("truetype");
 }
 
-body{
-    background-color: #f4f4f4;
+body {
+    background-color: #cea98e !important; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 .navbar-brand{
     font-family: "porsche";
@@ -18,4 +19,15 @@ body{
 
 .navbar-nav {
     font-family: "porsche";
+}
+
+.carousel-inner{
+    margin-top: 70px;
+}
+
+.carousel-control-prev, 
+.carousel-control-next {
+    top: 55% !important; 
+    transform: translateY(-45%) !important;
+    height: auto;
 }
