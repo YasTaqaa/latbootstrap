@@ -21,14 +21,37 @@ body {
     font-family: "porsche";
 }
 
-.carousel-inner{
-    margin-top: 70px;
+
+#carouselInterval {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+}
+
+#carouselInterval .carousel-inner {
+    width: 100%;
+    height: 350px;
+    object-fit: fill;
+    margin: 0;
+}
+
+#carouselInterval .about-descr .p-heading {
+    font-family: "porsche";
+    font-size: 50px;
+    text-align: left;
+}
+
+#carouselInterval .about-descr .separator {
+    font-family: 'Playfair Display', serif;
+    max-width: 90%;
+    margin-bottom: 0;
+    text-align: left;
 }
 
 .carousel-control-prev, 
 .carousel-control-next {
-    top: 55% !important; 
-    transform: translateY(-45%) !important;
+    top: 29% !important; 
+    transform: translateY(-43%) !important;
     height: auto;
 }
 
@@ -41,7 +64,8 @@ body {
 }
 
 #about .div-img-bg {
-    border: 20px solid #7ab09d;
+    margin: 20px;
+    border: 15px solid #7ab09d;
     box-sizing: border-box;
     display: inline-block;
     overflow: hidden;
@@ -49,19 +73,20 @@ body {
 
 #about .div-img-bg .about-img img {
     width: 100%;
-    height: 350px;
+    height: 280px;
     object-fit: fill;
     margin: 0;
 }
 
-#about .about-descr .p-heading {
+#about .p-heading {
+    text-align: center;
     font-family: "porsche";
-    font-size: 30px;
-    text-align: left;
+    font-size: 50px;
 }
 
 #about .about-descr .separator {
+    font-family: 'Playfair Display', serif;
     max-width: 80%;
-    margin-bottom: 0;
+    margin: 50px;
     text-align: left;
 }
