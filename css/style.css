@@ -31,3 +31,37 @@ body {
     transform: translateY(-45%) !important;
     height: auto;
 }
+
+
+#about {
+    width: 100%;
+    height: auto;
+    background: #af9e9e;
+    padding-top: 100px;
+}
+
+#about .div-img-bg {
+    border: 20px solid #7ab09d;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#about .div-img-bg .about-img img {
+    width: 100%;
+    height: 350px;
+    object-fit: fill;
+    margin: 0;
+}
+
+#about .about-descr .p-heading {
+    font-family: "porsche";
+    font-size: 30px;
+    text-align: left;
+}
+
+#about .about-descr .separator {
+    max-width: 80%;
+    margin-bottom: 0;
+    text-align: left;
+}
