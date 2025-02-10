@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -13,7 +14,7 @@
 </head>
 <body>
 
-    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark ">
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand mb-0 h1 fs-2">
                 <img class="d-inline-block align-center" src="images/580b585b2edbce24c47b2cac.png" width="40" height="40"
@@ -76,14 +77,14 @@
         <div class="container">
             <p class="p-heading">Origin</p>
             <div class="row justify-content-between">
-                <div class="col-lg-4">
+                <div class="col-lg-4 scroll-animation">
                     <div class="div-img-bg">
                         <div class="about-img">
                             <img src="images/Porsche 356.webp" class="img-responsive" alt="me">
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-7 mb-2">
+                <div class="col-sm-7 mb-2 scroll-animation">
                     <div class="about-descr">
                         <p class="separator">The origins of the company date to the 1930s when Czech-German automotive engineer Ferdinand Porsche founded Porsche
                         with Adolf Rosenberger, a keystone figure in the creation of German automotive manufacturer and Audi precursor Auto
@@ -97,14 +98,14 @@
         </div>
         <div class="container">
             <div class="row justify-content-between ps-lg-5">
-                <div class="col-lg-4">
+                <div class="col-lg-4 scroll-animation">
                     <div class="div-img-bg">
                         <div class="about-img">
                             <img src="images/The Porsche 911, introduced in 1964.webp" class="img-responsive" alt="me">
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-7 mb-2">
+                <div class="col-sm-7 mb-2 scroll-animation">
                     <div class="about-descr">
                         <p class="separator">Porsche is renowned for its high-performance sports cars and has become a prestigious brand worldwide. The Porsche 911,
                         introduced in 1964, is the brand's most iconic model and remains in production today. The company has also achieved
@@ -115,14 +116,14 @@
         </div>
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-4">
+                <div class="col-lg-4 scroll-animation">
                     <div class="div-img-bg">
                         <div class="about-img">
                             <img src="images/iris.webp" class="img-responsive" alt="me">
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-7 mb-2">
+                <div class="col-sm-7 mb-2 scroll-animation">
                     <div class="about-descr">
                         <p class="separator">Today, Porsche operates as part of the Volkswagen Group and has invested in electric vehicles. The Porsche Taycan,
                         launched in 2019, became the brand's first fully electric model, receiving widespread acclaim. Porsche continues to lead
@@ -136,9 +137,9 @@
 
     <div id="models">
         <div class="container">
-            <p class="p-heading">Models</p>
+            <p class="p-heading scroll-animation">Models</p>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
-                <div class="col">
+                <div class="col scroll-animation">
                     <div class="card text-bg-dark">
                         <img src="images/Porsche 911 Carrera GTS.webp" alt="911">
                         <div class="card-img-overlay d-flex flex-column justify-content-end">
@@ -148,7 +149,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col scroll-animation">
                     <div class="card text-bg-dark">
                         <img src="images/Porsche 718 Cayman GTS 4.0.webp" alt="718">
                         <div class="card-img-overlay d-flex flex-column justify-content-end">
@@ -158,7 +159,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col scroll-animation">
                     <div class="card text-bg-dark">
                         <img src="images/Porsche Panamera GTS.webp" alt="Panamera">
                         <div class="card-img-overlay d-flex flex-column justify-content-end">
@@ -168,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col scroll-animation">
                     <div class="card text-bg-dark">
                         <img src="images/front-left-side-47.webp" alt="Taycan">
                         <div class="card-img-overlay d-flex flex-column justify-content-end">
@@ -178,7 +179,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col scroll-animation">
                     <div class="card text-bg-dark">
                         <img src="images/cayenne.webp" alt="Cayenne">
                         <div class="card-img-overlay d-flex flex-column justify-content-end">
@@ -188,7 +189,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col mb-5">
+                <div class="col scroll-animation mb-5">
                     <div class="card text-bg-dark">
                         <img src="images/macan.webp" alt="Macan">
                         <div class="card-img-overlay d-flex flex-column justify-content-end">
@@ -201,6 +202,12 @@
             </div>
         </div>
     </div>
+
+    <footer id="footer" class="text-center">
+        <div class="container">
+            <h1>&copy; KiseTaqa</h1>
+        </div>
+    </footer>
 
 </body>
 </html>
