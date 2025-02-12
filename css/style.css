@@ -4,6 +4,7 @@
 }
 
 body { 
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -66,8 +67,7 @@ body {
 /* CAROUSEL */
 #carouselInterval {
     margin-top: 200px;
-    margin-bottom: 70px;
-    
+    margin-bottom: 70px; 
 }
 
 #carouselInterval .carousel-inner {
@@ -79,7 +79,7 @@ body {
 
 #carouselInterval .about-descr .p-heading {
     font-family: "porsche";
-    font-size: 70px;
+    font-size: 50px;
     text-align: left;
 }
 

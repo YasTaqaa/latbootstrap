@@ -96,7 +96,11 @@
 @media (max-width: 480px) {
   #header .about-descr .p-heading {
       font-size: 50px;
-    }
+  }
+  #caraouselInterval .about-descr .p-heading {
+      font-size: 50px;
+  }
+
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
