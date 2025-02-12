@@ -3,14 +3,14 @@
     src: url("/font/porsche/911porschav3bold.ttf") format("truetype");
 }
 
-body {
-    background-color: #ccb4aa !important; 
+body { 
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 
+
+/* NAVBAR */
 .navbar-brand{
     font-family: "porsche";
     text-align: center;
@@ -21,10 +21,53 @@ body {
     font-family: "porsche";
 }
 
-
-#carouselInterval {
-    margin-top: 120px;
+/* HEADER */
+#header {
+    margin-top: 200px;
     margin-bottom: 70px;
+}
+
+#header::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+#header .video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+
+#header .about-descr .p-heading {
+    font-family: "porsche";
+    font-size: 70px;
+    text-align: left;
+}
+
+#header .about-descr .separator {
+    font-size: 18px;
+    max-width: 90%;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+
+/* CAROUSEL */
+#carouselInterval {
+    margin-top: 200px;
+    margin-bottom: 70px;
+    
 }
 
 #carouselInterval .carousel-inner {
@@ -34,10 +77,9 @@ body {
     object-fit: fill;
 }
 
-
 #carouselInterval .about-descr .p-heading {
     font-family: "porsche";
-    font-size: 50px;
+    font-size: 70px;
     text-align: left;
 }
 
@@ -49,8 +91,7 @@ body {
 }
 
 
-
-
+/* ABOUT */
 #about {
     width: 100%;
     height: auto;
@@ -88,6 +129,8 @@ body {
 }
 
 
+
+/* MODELS */
 #models {
     width: 100%;
     height: auto;
@@ -103,6 +146,7 @@ body {
 
 
 #models img {
+    border: 3px solid #000;
     border-radius: 10px;
     width: 100%;
     height: 400px;
@@ -131,6 +175,7 @@ body {
 
 
 
+/* ANIMATION SCROLL */
 .scroll-animation {
     opacity: 0;
     transform: translateY(50px);
@@ -140,4 +185,12 @@ body {
 .scroll-animation.scrolled {
     opacity: 1;
     transform: translateY(0);
+}
+
+
+/* FOOTER */
+#footer {
+    background: #ccb4aa !important;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
