@@ -66,8 +66,8 @@ body {
 
 /* CAROUSEL */
 #carouselInterval {
-    margin-top: 200px;
-    margin-bottom: 70px; 
+    margin-top: 100px;
+    margin-bottom: 50px; 
 }
 
 #carouselInterval .carousel-inner {
@@ -173,6 +173,19 @@ body {
     font-size: 30px;
 }
 
+
+/* ALL MODELS */
+#carsmodels {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding-top: 100px;
+}
+#carsmodels .p-heading {
+    text-align: center;
+    font-family: "porsche";
+    font-size: 50px;
+}
 
 
 /* ANIMATION SCROLL */
