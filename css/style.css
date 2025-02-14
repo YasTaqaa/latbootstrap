@@ -4,7 +4,7 @@
 }
 
 body { 
-    width: 100%;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
@@ -71,9 +71,8 @@ body {
 }
 
 #carouselInterval .carousel-inner {
-    border: 15px solid #8c9995;
+    border: 10px solid #8c9995;
     border-radius: 10px;
-    width: 100%;
     object-fit: fill;
 }
 
@@ -85,8 +84,7 @@ body {
 
 #carouselInterval .about-descr .separator {
     font-size: 18px;
-    max-width: 90%;
-    margin-bottom: 0;
+    max-width: 80%;
     text-align: left;
 }
 
@@ -176,7 +174,6 @@ body {
 
 /* ALL MODELS */
 #carsmodels {
-    width: 100%;
     height: auto;
     background: #fff;
     padding-top: 100px;
@@ -185,6 +182,9 @@ body {
     text-align: center;
     font-family: "porsche";
     font-size: 50px;
+}
+#carsmodels .card-text {
+    font-size: 20px;
 }
 
 
@@ -203,7 +203,7 @@ body {
 
 /* FOOTER */
 #footer {
-    background: #ccb4aa !important;
+    background: #1d1d1d !important;
     padding-top: 50px;
     padding-bottom: 30px;
 }
