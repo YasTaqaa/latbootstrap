@@ -93,13 +93,13 @@ body {
 #about {
     width: 100%;
     height: auto;
-    background: #9c645c;
+    background: #b89e9a;
     padding-top: 100px;
 }
 
 #about .div-img-bg {
     margin: 20px;
-    border: 15px solid #8c9995;
+    border: 10px solid #8c9995;
     border-radius: 20px;
     box-sizing: border-box;
     display: inline-block;
@@ -132,7 +132,7 @@ body {
 #models {
     width: 100%;
     height: auto;
-    background: #5a343c;
+    background: #978c8f;
     padding-top: 100px;
 }
 
