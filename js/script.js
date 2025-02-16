@@ -38,3 +38,28 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", handleScrollAnimation);
     handleScrollAnimation();
 });
+
+
+// Wrap every letter in a span
+document.addEventListener("DOMContentLoaded", function () {
+    var textWrapper = document.querySelector('#header .p-heading .text-wrapper');
+
+    if (textWrapper) {
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+        anime.timeline({ loop: true })
+            .add({
+                targets: '#header .p-heading .letter',
+                rotateY: [-90, 0],
+                duration: 1500,
+                delay: (el, i) => 300 * i
+            })
+            .add({
+                targets: '#header .p-heading',
+                opacity: 0,
+                duration: 1000,
+                easing: "easeOutExpo",
+                delay: 1000
+            });
+    }
+});

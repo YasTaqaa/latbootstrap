@@ -50,10 +50,24 @@ body {
 }
 
 
-#header .about-descr .p-heading {
+#header .p-heading {
+    position: relative;
     font-family: "porsche";
     font-size: 70px;
     text-align: left;
+}
+#header .p-heading .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+#header .p-heading .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
 }
 
 #header .about-descr .separator {
@@ -166,10 +180,17 @@ body {
         background: rgba(0, 0, 0, 0.2);
     }
 
-.card-title {
+#models .card-title {
     font-family: "porsche";
     font-size: 30px;
 }
+#models button {
+    box-shadow: 0 0 5px rgb(52, 77, 77), 0 0 25px rgb(52, 77, 77),0 0 50px rgb(52, 77, 77);
+}
+#models button:hover {
+    box-shadow: 0 0 5px rgb(166, 168, 168), 0 0 25px rgb(166, 168, 168),0 0 50px rgb(166, 168, 168);
+}
+
 
 
 /* ALL MODELS */
